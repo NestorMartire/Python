@@ -1,0 +1,11 @@
+def año_bis(año):
+    if año % 4 == 0:
+        print("El año es bisiesto")
+    else:
+        print ("El año no es bisiesto")
+
+try:
+    consulta=int(input("Ingrese el año"))
+    año_bis(consulta)
+except:
+    print("Ingresa un año!!!!")
