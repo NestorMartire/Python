@@ -1,0 +1,22 @@
+class Coche:
+    Velocidad = 100
+    Cilindrada = 1500
+
+    def info(self):
+        print(Coche.Cilindrada)
+        print(Coche.Velocidad)
+
+class Vehículo(Coche):
+    Color = "Rojo"
+    Ruedas = 4
+    Puertas = 3
+
+    def info(self):
+        print(Vehículo.Color)
+        print(Vehículo.Ruedas)
+        print(Vehículo.Puertas)
+        print(Vehículo.Cilindrada)
+        print(Vehículo.Velocidad)
+
+vehículo = Vehículo()
+vehículo.info()
