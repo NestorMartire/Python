@@ -1,0 +1,19 @@
+class Alumno:
+
+    def __init__(self):
+        self.Nombre="Néstor"
+        self.Nota=10
+    
+    def imprimir(self):
+        print(self.Nombre)
+        print(self.Nota)
+
+    def mensaje(self):
+        if self.Nota > 7:
+            print("El alumno", self.Nombre, "Aprobó")
+        else:
+            print("El alumno", self.Nombre, "Es un burro")
+
+alumno = Alumno()
+alumno.imprimir()
+alumno.mensaje()
