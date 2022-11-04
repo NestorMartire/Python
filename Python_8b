@@ -1,0 +1,18 @@
+f = open('/Users/usuario2/Downloads/Python/ejercicio8b.py' , 'w')
+f.write('class Vehiculo:\n')
+f.write('   def __init__(self):\n')
+f.write('       self.color = "verde"\n')
+f.write('       self.ruedas = 4\n')
+f.write('   def imprimir(self)\n')
+f.write('       print(self.color\n')
+f.write('       print(self.ruedas\n')
+f.write('vehiculo = Vehiculo()\n')
+f.write('vehiculo.imprimir()\n')
+
+f.close()
+
+f = open('/Users/usuario2/Downloads/Python/Ejercicio8b.py' , 'r')
+ejercicio8b = f.read()
+f.close()
+
+print(ejercicio8b) 
