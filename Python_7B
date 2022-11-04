@@ -1,0 +1,13 @@
+def calcula_hora_salida():
+
+    import time
+
+    named_tuple = time.localtime() # get struct_time
+    time_string = time.strftime("%H", named_tuple)
+    time_int = int(time_string)
+    if time_int >= 19:
+        print("Hora de ir a casa")  
+    else:
+        print("Faltan: ", 19-time_int , "horas para ir a casa")
+
+calcula_hora_salida()
