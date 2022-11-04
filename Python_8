@@ -1,0 +1,10 @@
+f = open('/Users/usuario2/Downloads/Python/ejercicio8' , 'w')
+f.write('OpenBootCamp es:\n')
+f.write('...Maravilloso!!!\n')
+f.close()
+
+f = open('/Users/usuario2/Downloads/Python/Ejercicio8' , 'r')
+ejercicio8 = f.read()
+f.close()
+
+print(ejercicio8) 
